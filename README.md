@@ -36,7 +36,8 @@ Halfway I thought why not allow other developers to showcase their flexbox maste
 
 5. Try to use only flexbox for your layouts and design to see how much you've mustered it.
 
-6. If you also want to showcase your CSS **grid** mastery, checkout my other repo on CSS grid and be sure to contribute.
+6. If you also want to showcase your CSS **grid** mastery, checkout my other repo on CSS grid and be sure to contribute here 👉
+   https://github.com/JohnMwendwa/grid-practice-excercises
 
 7. Don't forget to star the repo 😎
 
