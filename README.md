@@ -14,7 +14,7 @@ Halfway I thought why not allow other developers to showcase their flexbox maste
 ...
 
 <li class="nav__item">
-  <a href="/equal-height-cards/index.html" class="nav__link">
+  <a href="equal-height-cards/index.html" class="nav__link">
     Create cards with equal heights
   </a>
 </li>
@@ -22,11 +22,13 @@ Halfway I thought why not allow other developers to showcase their flexbox maste
 ...
 ```
 
+**CAUTION!!!** : Ensure you do not add a forward slash ( / ) at the beginning of href link, otherwise the link to your project won't work!.
+
 4. You can append your name to the end of the link so others can know you created the project or search for you e.g
 
 ```html
 <li class="nav__item">
-  <a href="/equal-height-cards/index.html" class="nav__link">
+  <a href="equal-height-cards/index.html" class="nav__link">
     Create cards with equal heights - John Mwendwa
   </a>
 </li>
@@ -43,3 +45,5 @@ Halfway I thought why not allow other developers to showcase their flexbox maste
 If you have an extremely good eye for design, you can alter the root style.css stylesheet. Although all your alterations are not always guaranteed to be merged but it's always worth the effort.
 
 ## LIVE DEMO
+
+https://johnmwendwa.github.io/flexbox-practice-excercises
