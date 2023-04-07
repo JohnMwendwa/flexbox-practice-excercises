@@ -14,19 +14,14 @@ header {
   padding: 1.5rem 1rem;
   background-color: purple;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 800;
+  transition: all 0.3s linear;
 }
 
 main {
   flex-grow: 1;
   padding: 1.5rem 1rem;
-}
-
-footer {
-  background-color: #eee;
-  padding: 1rem;
-  text-align: center;
 }
 
 .nav__items {
@@ -37,17 +32,24 @@ footer {
 .nav__item {
   counter-increment: fancy-counter;
   margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
+}
+
+.nav__link {
+  padding-bottom: 2px;
+  text-decoration: none;
+  border-bottom: 2px solid purple;
+  color: black;
+  font-size: 1.25rem;
+  transition: all 0.3s linear;
 }
 
 .nav__item::before {
   content: counter(fancy-counter);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2em;
-  height: 2em;
+  width: 1.25em;
+  height: 1.25em;
   border-radius: 50%;
   background-color: purple;
   color: white;
@@ -55,13 +57,24 @@ footer {
   font-weight: 800;
   margin-right: 1rem;
   box-shadow: 1px 1px 0 black;
+  transition: all 0.3s linear;
 }
 
-.nav__link {
-  display: inline-flex;
-  padding-bottom: 2px;
-  text-decoration: none;
-  border-bottom: 2px solid purple;
-  color: black;
-  font-size: 1.5rem;
+@media (min-width: 40em) {
+  header {
+    font-size: 2rem;
+  }
+  .nav__link {
+    font-size: 1.5rem;
+  }
+  .nav__item::before {
+    width: 2em;
+    height: 2em;
+  }
+}
+
+footer {
+  background-color: #eee;
+  padding: 1rem;
+  text-align: center;
 }
